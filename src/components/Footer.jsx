@@ -46,26 +46,6 @@ const Footer = () => {
             {/* Social */}
 
             <div className="flex gap-4 mt-8">
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full bg-slate-800 hover:bg-cyan-500 transition flex items-center justify-center"
-              >
-                <FaFacebookF />
-              </a>
-
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full bg-slate-800 hover:bg-cyan-500 transition flex items-center justify-center"
-              >
-                <FaInstagram />
-              </a>
-
-              <a
-                href="#"
-                className="w-11 h-11 rounded-full bg-slate-800 hover:bg-cyan-500 transition flex items-center justify-center"
-              >
-                <FaLinkedinIn />
-              </a>
 
               <a
                 href="https://wa.me/918700939284"
