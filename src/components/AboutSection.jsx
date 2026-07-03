@@ -5,10 +5,7 @@ import aboutImage from "../assets/about.jpg";
 
 const AboutSection = () => {
   return (
-    <section
-      id="about"
-      className="py-24 bg-linear-to-b from-white to-slate-50"
-    >
+    <section id="about" className="py-24 bg-linear-to-b from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           {/* LEFT IMAGE */}
@@ -18,7 +15,7 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative overflow-hidden rounded-3xl"
           >
             <img
               src={aboutImage}
@@ -34,7 +31,7 @@ const AboutSection = () => {
                 repeat: Infinity,
                 duration: 3,
               }}
-              className="absolute -bottom-8 -right-8 bg-white rounded-2xl shadow-xl p-6 w-64"
+              className="absolute bottom-4 right-4 lg:-bottom-8 lg:-right-8 bg-white rounded-2xl shadow-xl p-6 w-56 sm:w-64"
             >
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-cyan-500 flex items-center justify-center text-white text-2xl">

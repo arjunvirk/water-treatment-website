@@ -17,9 +17,9 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-linear-to-r from-slate-950/90 via-slate-900/75 to-slate-900/50"></div>
 
       {/* Animated Glow */}
-      <div className="absolute top-24 left-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-[120px] animate-pulse"></div>
+      <div className="hidden md:block absolute top-24 left-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-[120px] animate-pulse"></div>
 
-      <div className="absolute bottom-16 right-10 w-80 h-80 bg-blue-600/20 rounded-full blur-[130px] animate-pulse"></div>
+      <div className="hidden md:block absolute bottom-16 right-10 w-80 h-80 bg-blue-600/20 rounded-full blur-[130px] animate-pulse"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto w-full px-6 grid lg:grid-cols-2 gap-16 items-center">
