@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaArrowRight, FaPhoneAlt, FaCheckCircle } from "react-icons/fa";
-import heroImage from "../assets/hero.avif";
+import heroImage from "../assets/Hero.avif";
 
 const HeroSection = () => {
   return (
